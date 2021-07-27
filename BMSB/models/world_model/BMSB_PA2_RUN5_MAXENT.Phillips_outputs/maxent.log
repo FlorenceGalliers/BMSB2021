@@ -1,0 +1,49 @@
+Wed Jun 30 13:52:23 BST 2021
+MaxEnt version 3.4.4
+Reading file Back_swd.csv
+readGrid: max memory 477626368, total allocated 163053568, free 124718872, used 38334696, increment 38334696
+Reading samples from Sp_swd.csv
+Read samples: max memory 477626368, total allocated 227540992, free 214498120, used 13042872, increment -25291824
+Making features
+makeFeatures: max memory 477626368, total allocated 228065280, free 210682744, used 17382536, increment 4339664
+Command line used:  environmentallayers=BMSB/models/world_model/m_22547962/Back_swd.csv samplesfile=BMSB/models/world_model/m_22547962/Sp_swd.csv projectionlayers=BMSB/models/world_model/m_22547962/Predictions/Pred_swd.csv outputdirectory=BMSB/models/world_model/BMSB_PA2_RUN5_MAXENT.Phillips_outputs outputformat=logistic redoifexists visible=FALSE linear=TRUE quadratic=TRUE product=TRUE threshold=TRUE hinge=TRUE lq2lqptthreshold=80 l2lqthreshold=10 hingethreshold=15 beta_threshold=-1 beta_categorical=-1 beta_lqp=-1 beta_hinge=-1 betamultiplier=1 defaultprevalence=0.5 autorun nowarnings notooltips noaddsamplestobackground
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputformat=logistic outputdirectory=BMSB/models/world_model/BMSB_PA2_RUN5_MAXENT.Phillips_outputs projectionlayers=BMSB/models/world_model/m_22547962/Predictions/Pred_swd.csv samplesfile=BMSB/models/world_model/m_22547962/Sp_swd.csv environmentallayers=BMSB/models/world_model/m_22547962/Back_swd.csv nowarnings notooltips noaskoverwrite threshold noaddsamplestobackground autorun novisible
+Species: BMSB_PA2_RUN5
+Layers: bio02 bio03 bio08 bio09 bio13 bio14 bio15 bio18 bio19
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputformat: logistic
+outputdirectory: BMSB/models/world_model/BMSB_PA2_RUN5_MAXENT.Phillips_outputs
+projectionlayers: BMSB/models/world_model/m_22547962/Predictions/Pred_swd.csv
+samplesfile: BMSB/models/world_model/m_22547962/Sp_swd.csv
+environmentallayers: BMSB/models/world_model/m_22547962/Back_swd.csv
+warnings: false
+tooltips: false
+askoverwrite: false
+threshold: true
+addsamplestobackground: false
+autorun: true
+visible: false
+
+getSamples: max memory 477626368, total allocated 228065280, free 207969176, used 20096104, increment 2713568
+BMSB_PA2_RUN5: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Time since start: 1.135
+9571 samples
+Density: max memory 477626368, total allocated 228065280, free 158181728, used 69883552, increment 49787448
+linearPredictor: max memory 477626368, total allocated 228065280, free 158181728, used 69883552, increment 0
+FeaturedSpace: max memory 477626368, total allocated 228065280, free 158181728, used 69883552, increment 0
+Sequential: max memory 477626368, total allocated 228065280, free 158181728, used 69883552, increment 0
+Initial loss: 8.990316947998217
+Time since start: 19.605
+500: time = 18.311000 loss = 3.845149
+Resulting gain: 5.1451675671459025
+Time since start: 21.635
+Projecting...
+Writing file BMSB/models/world_model/BMSB_PA2_RUN5_MAXENT.Phillips_outputs/BMSB_PA2_RUN5.csv
+Projecting...
+Reading file Pred_swd.csv
+readGrid: max memory 477626368, total allocated 150470656, free 68677160, used 81793496, increment 11909944
+Writing file BMSB/models/world_model/BMSB_PA2_RUN5_MAXENT.Phillips_outputs/BMSB_PA2_RUN5_Pred_swd.csv
+Writing file BMSB/models/world_model/BMSB_PA2_RUN5_MAXENT.Phillips_outputs/BMSB_PA2_RUN5_Pred_swd_clamping.csv
+Time since start: 23.581
+Ending
