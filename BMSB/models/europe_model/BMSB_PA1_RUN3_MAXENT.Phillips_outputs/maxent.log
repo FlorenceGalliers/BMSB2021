@@ -1,0 +1,47 @@
+Wed Jun 23 11:46:42 BST 2021
+MaxEnt version 3.4.4
+Reading file Back_swd.csv
+readGrid: max memory 477626368, total allocated 128974848, free 95471528, used 33503320, increment 33503320
+Reading samples from Sp_swd.csv
+Read samples: max memory 477626368, total allocated 163053568, free 121346248, used 41707320, increment 8204000
+Making features
+makeFeatures: max memory 477626368, total allocated 163053568, free 153569448, used 9484120, increment -32223200
+Command line used:  environmentallayers=BMSB/models/europe_model/m_41507811/Back_swd.csv samplesfile=BMSB/models/europe_model/m_41507811/Sp_swd.csv projectionlayers=BMSB/models/europe_model/m_41507811/Predictions/Pred_swd.csv outputdirectory=BMSB/models/europe_model/BMSB_PA1_RUN3_MAXENT.Phillips_outputs outputformat=logistic redoifexists visible=FALSE linear=TRUE quadratic=TRUE product=TRUE threshold=TRUE hinge=TRUE lq2lqptthreshold=80 l2lqthreshold=10 hingethreshold=15 beta_threshold=-1 beta_categorical=-1 beta_lqp=-1 beta_hinge=-1 betamultiplier=1 defaultprevalence=0.5 autorun nowarnings notooltips noaddsamplestobackground
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputformat=logistic outputdirectory=BMSB/models/europe_model/BMSB_PA1_RUN3_MAXENT.Phillips_outputs projectionlayers=BMSB/models/europe_model/m_41507811/Predictions/Pred_swd.csv samplesfile=BMSB/models/europe_model/m_41507811/Sp_swd.csv environmentallayers=BMSB/models/europe_model/m_41507811/Back_swd.csv nowarnings notooltips noaskoverwrite threshold noaddsamplestobackground autorun novisible
+Species: BMSB_PA1_RUN3
+Layers: bio02 bio03 bio08 bio09 bio13 bio14 bio15 bio18 bio19
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputformat: logistic
+outputdirectory: BMSB/models/europe_model/BMSB_PA1_RUN3_MAXENT.Phillips_outputs
+projectionlayers: BMSB/models/europe_model/m_41507811/Predictions/Pred_swd.csv
+samplesfile: BMSB/models/europe_model/m_41507811/Sp_swd.csv
+environmentallayers: BMSB/models/europe_model/m_41507811/Back_swd.csv
+warnings: false
+tooltips: false
+askoverwrite: false
+threshold: true
+addsamplestobackground: false
+autorun: true
+visible: false
+
+getSamples: max memory 477626368, total allocated 163053568, free 152207600, used 10845968, increment 1361848
+BMSB_PA1_RUN3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+2380 samples
+Density: max memory 477626368, total allocated 163053568, free 120198752, used 42854816, increment 32008848
+linearPredictor: max memory 477626368, total allocated 163053568, free 120198752, used 42854816, increment 0
+FeaturedSpace: max memory 477626368, total allocated 163053568, free 120198752, used 42854816, increment 0
+Sequential: max memory 477626368, total allocated 163053568, free 120198752, used 42854816, increment 0
+Initial loss: 8.97903863296051
+Time since start: 13.422
+500: time = 12.738000 loss = -1.904872
+Resulting gain: 10.883911088087423
+Time since start: 15.197
+Projecting...
+Writing file BMSB/models/europe_model/BMSB_PA1_RUN3_MAXENT.Phillips_outputs/BMSB_PA1_RUN3.csv
+Projecting...
+Reading file Pred_swd.csv
+readGrid: max memory 477626368, total allocated 128974848, free 84763344, used 44211504, increment 1356688
+Writing file BMSB/models/europe_model/BMSB_PA1_RUN3_MAXENT.Phillips_outputs/BMSB_PA1_RUN3_Pred_swd.csv
+Writing file BMSB/models/europe_model/BMSB_PA1_RUN3_MAXENT.Phillips_outputs/BMSB_PA1_RUN3_Pred_swd_clamping.csv
+Ending
