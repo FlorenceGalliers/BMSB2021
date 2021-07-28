@@ -1,1 +1,9 @@
 # Climatic and habitat suitability of Great Britain and Ireland for brown marmorated stink bug (*Halyomorpha halys* Stål)
+
+
+Brown marmorated stink bug (BMSB), Halyomorpha halys Stål (Hemiptera: Pentatomidae) is an extremely polyphagous pest species native to Asia. Since 1996 it has become widely established in North America, Italy, France, and Switzerland with successful populations present in many other European countries. Feeding damage caused to high-value horticulture plants makes the pest economically important. Using an ensemble of ten species distribution modelling (SDMs) algorithms, citizen science occurrence data and bioclimatic variables, the current and future climatic suitability of Great Britain and Ireland are investigated. The resulting projections are combined with a habitat layer, incorporating land use with host plant abundance. Few previous studies have focused on this area or considered habitat variables, despite the importance of them for BMSB survival. Results show environmental conditions in native, USA and European populations significantly differed, suggesting a niche shift occurred during invasion. Consequently, exclusion of native occurrence records improved SDM accuracy. Projections indicate Great Britain and Ireland are climatically suitable, with future suitability predicted to increase. When combined with habitat suitability, regions of eastern and southern England are highlighted to have highest suitability. These findings and the increasing number of BMSB occurrences reported in England show population establishment in Great Britain and Ireland is possible. Species awareness should be raised to prevent widespread establishment going undetected, causing economic losses and nuisance problems.
+
+**Modelling Workflow**
+
+
+![image](https://user-images.githubusercontent.com/70537041/127397286-42e5d2f8-af29-48fe-b149-16560ec4777a.png)
